@@ -1,36 +1,36 @@
-#pragma once
+ï»¿#pragma once
 #include <Novice.h>
 #include "WorldTransform.h"
 
 class Player {
 public:
 	/// <summary>
-	/// ƒRƒ“ƒXƒgƒ‰ƒNƒ^
+	/// ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿
 	/// </summary>
 	Player();
 
 	/// <summary>
-	/// ƒfƒXƒgƒ‰ƒNƒ^
+	/// ãƒ‡ã‚¹ãƒˆãƒ©ã‚¯ã‚¿
 	/// </summary>
 	~Player();
 
 	/// <summary>
-	/// ‰Šú‰»
+	/// åˆæœŸåŒ–
 	/// </summary>
 	void Initialize();
 
 	/// <summary>
-	/// XVˆ—
+	/// æ›´æ–°å‡¦ç†
 	/// </summary>
 	void Update();
 
 	/// <summary>
-	/// •`‰æˆ—
+	/// æç”»å‡¦ç†
 	/// </summary>
 	void Draw();
 
 private:
-	// ƒ[ƒ‹ƒhƒgƒ‰ƒ“ƒXƒtƒH[ƒ€
+	// ãƒ¯ãƒ¼ãƒ«ãƒ‰ãƒˆãƒ©ãƒ³ã‚¹ãƒ•ã‚©ãƒ¼ãƒ 
 	WorldTransform worldTransform_;
 
 };
